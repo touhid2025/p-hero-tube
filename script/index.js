@@ -70,7 +70,7 @@ const displayVideos = (videos) => {
         videoCard.innerHTML = `
         <div class="card bg-base-100">
   <figure class="relative">
-    <img class="w-full sm:h-[150px] object-cover"
+    <img class="w-full h-[250px] sm:h-[200px] lg:h-[150px] object-cover"
       src="${video.thumbnail}"
       alt="Shoes" />
       <span class="absolute bottom-2 right-2 bg-black text-white text-sm rounded-md">3 hrs 56 min ago</span>
